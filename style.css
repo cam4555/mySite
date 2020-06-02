@@ -1,0 +1,161 @@
+html{
+	scroll-behavior: smooth;
+	font-family: 'Roboto Condensed';
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	color: #000;
+	background-color: lightgray;
+	transition: background-color 1s ease;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+
+.nav{
+	position: sticky;
+	top: 0%;
+	margin-top: 0px;
+	background-color: transparent;
+	text-align: center;
+	z-index: 1;
+}
+
+.navUl{
+	
+  list-style-type: none;
+  background-color: transparent;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+}
+
+.navLi{
+	display: inline-block;
+	background-color: cyan;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	border: 3px solid white;
+	
+}
+
+
+
+
+.color-gray {
+background-color: lightgray;
+}
+.color-cyan {
+background-color: lightcyan;
+}
+
+
+
+
+.homeContent{
+	padding-top: 0px;
+}
+
+.content{
+	padding-top: 5%;
+}
+
+
+.sectionTitle{
+	text-align: center;
+	text-decoration: salmon;
+	font-size: large;
+}
+
+.panel{
+	position: relative;
+	display: block;
+}
+
+#home {
+	height: 90vh;
+	background-color: transparent;
+	margin: 0 15% 0 15%;
+	border: solid 1px black;
+}	
+
+#about{
+	height: 100vh;
+	background-color: transparent;
+	margin: 0 15% 0 15%;
+	border: solid 1px black;
+
+}
+
+#portfolio{
+	height: 100vh;
+	background-color: transparent;
+	margin: 0 15% 0 15%;
+	border: solid 1px black;
+
+}
+
+#contact{
+	height: 100vh;
+	background-color: transparent;
+	margin: 0 15% 0 15%;
+	border: solid 1px black;
+}
+
+
+
+
+.next{
+	position: absolute;
+	left: 40%;
+	bottom:	6px;
+	color: black;
+}
+
+.next > a {
+    padding: 15px 55px;
+    display: inline-block;
+    position: relative;
+    border: solid 1px black;
+    text-decoration: none;
+    color: black;
+}
+
+.next > a::before {
+    content: '';
+    width: 15px;
+    display: block;
+    position: absolute;
+    height: 1px;
+    background: black;
+    transform: translateY(-50%);
+    top: 50%;
+    right: 15px;
+}
+
+.computer:hover{
+    border-style: dashed;
+    border-width: 5px;
+    border-color: black;
+}
+
+.next > a::after {
+    content: '';
+    width: 3px;
+    display: block;
+    position: absolute;
+    height: 3px;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%) rotate(45deg);
+
+    border-top: solid 1px black;
+    border-right: solid 1px black;
+}
